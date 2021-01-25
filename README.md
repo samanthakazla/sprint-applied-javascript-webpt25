@@ -22,27 +22,27 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 #### Repository Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x ] Create a forked copy of this project.
+- [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x ] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [ x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ x] Push commits: `git push origin <firstName-lastName>`.
 
 #### Launching the App
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to the URL indicated in the output of the `npm start` command.
+- [ x] Navigate to the root of the project with your command line.
+- [ x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [ x] Run `npm start` to compile the project and serve it.
+- [ x] Navigate Chrome to the URL indicated in the output of the `npm start` command.
 
 ### B - Project Requirements
 
 Your must complete all the following steps:
 
-- [ ] Step 0 is to link `src/index.js` to the `src/index.html` file using a script tag.
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x ] Step 0 is to link `src/index.js` to the `src/index.html` file using a script tag.
+- [ x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [ x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [ x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -75,7 +75,17 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+The Document Object Model, or the “DOM”, is an interface to web pages. It is essentially an API to the page, allowing programs to read and manipulate the page’s content, structure, and styles
+
 2. What is an event?
+HTML DOM events allow JavaScript to register different event handlers on elements in an HTML document.
+
+Events are normally used in combination with functions, and the function will not be executed before the event occurs (such as when a user clicks a button)
+
 3. What is an event listener?
+Event listeners are among the most frequently used JavaScript structures in web design. They allow us to add interactive functionality to HTML elements by “listening” to different events that take place on the page, such as when the user clicks a button, presses a key, or when an element loads.
 4. Why would we convert a NodeList into an Array?
+So that you can treat it as an array, and use things that work with arrays
+
 5. What is a component?
+ A function, or part of a class, that can be used many times without having to be altered.
